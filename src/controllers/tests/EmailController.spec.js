@@ -1,7 +1,7 @@
-const MailQueue = require('../queue/MailQueue');
-const { sendEmail } = require('../controllers/emailController');
+const MailQueue = require('../../queue/MailQueue');
+const { sendEmail } = require('../emailController');
 
-jest.mock('../queue/MailQueue');
+jest.mock('../../queue/MailQueue');
 
 describe('sendEmail', () => {
   beforeEach(() => {
