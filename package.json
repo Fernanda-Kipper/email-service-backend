@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/guivahl/banco-dados-avancado#readme",
   "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "@fastify/formbody": "^7.4.0",
     "aws-sdk": "^2.1360.0",
     "bull": "^4.10.4",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "fastify": "^4.17.0"
   }
 }

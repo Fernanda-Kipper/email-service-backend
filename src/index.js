@@ -1,8 +1,19 @@
-const MailQueue = require("./queue/MailQueue");
+const fastify = require("fastify");
+const EmailRoutes = require("./routes/email");
+const cors = require("@fastify/cors");
+const formBody = require("@fastify/formbody");
 
-MailQueue.add({
-    to: "gdsvahl@inf.ufpel.edu.br",
-    from: "gdsvahl@inf.ufpel.edu.br",
-    subject: "DBA",
-    text: "POC Redis"
+const server = fastify();
+
+const corsOptions = {
+    credentials: true,
+    origin:  /localhost\:5173/,
+}
+server.register(cors, corsOptions);
+server.register(formBody);
+
+server.register(EmailRoutes);
+
+server.listen({
+    port: process.env.PORT || 3200
 })

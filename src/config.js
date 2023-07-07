@@ -14,4 +14,5 @@ module.exports = {
   AWS_API_VERSION: process.env.AWS_API_VERSION,
   REDIS_HOST: process.env.REDIS_HOST,
   REDIS_PORT: process.env.REDIS_PORT,
+  EMAIL_FROM: process.env.EMAIL_FROM
 };
