@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
     "bull": "^4.10.4",
     "dotenv": "^16.0.3",
     "fastify": "^4.17.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
