@@ -1,5 +1,10 @@
 # Serviço de Disparo de Emails
 
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
+
 Este projeto foi desenvolvido como parte da disciplina de Banco de Dados Avançado do curso de Ciência da Computação da [Universidade Federal de Pelotas](https://portal.ufpel.edu.br/). O objetivo principal é demonstrar o uso do banco de dados NoSQL Redis como message broker em um sistema de disparo de e-mails em lote.
 
 Este projeto é um clone do repositório [redis-dba](https://github.com/guivahl/redis-dba), com algumas adições de funcionalidades.
@@ -15,7 +20,7 @@ Este projeto é um clone do repositório [redis-dba](https://github.com/guivahl/
 
 1. Clone o repositório e acesse a pasta do projeto
    ```shell
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/Fernanda-Kipper/email-service-backend.git
    cd nome-do-repositorio
     ```
 2. Instale os pacotes utilizando o comando `npm install`
