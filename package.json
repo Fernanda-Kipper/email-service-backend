@@ -24,7 +24,7 @@
     "aws-sdk": "^2.1360.0",
     "bull": "^4.10.4",
     "dotenv": "^16.0.3",
-    "fastify": "^4.17.0"
+    "fastify": "^4.29.1"
   },
   "devDependencies": {
     "jest": "^29.5.0"
